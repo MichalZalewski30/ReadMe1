@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Stronka z naszym RPG</title>
+        <script> <!--Odliczanie skrypt JS--> 
+            setTimeout(wakeUpUser, 5000); 
+            function wakeUpUser(){
+                alert("Strzała w kolano");
+            }
+           
+        </script>
+
+        
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
+        <link rel="stylesheet" href="styles.css"> <!-- przerzucenie do pliku z kodem CSS -->
+         <style> 
+           #myHeader {
+            background-color: lightblue;
+            color: black;
+            padding: 40px;
+            text-align: center;
+            } 
+            body {
+              background-image:  <img src="Obrazki\Swiebodzki.jpg" style="max-width:100%;height:auto;">;
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: cover;
+            }
+            table, th, td {
+                border: 2px solid black;
+                padding: 10px;
+            }
+            table {
+                border-spacing: 5px;
+            }
+            table#t01 {
+                width: 50%;
+                 background-color: white;
+            }
+            table#t02{
+                width: 50%;
+                 background-color: skyblue;
+            }
+            ul {
+               list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333333;
+                }
+
+            li {
+              float: left;
+            }
+
+            li a {
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 16px;
+              text-decoration: none;
+            }
+
+            li a:hover {
+              background-color: #111111;
+            }
+
+            .city {
+              background-color: black;
+              color: whitesmoke;
+              margin: 20px;
+              padding: 20px;
+            }
+            #myHeader {
+              background-color: lightblue;
+              color: black;
+              padding: 40px;
+              text-align: center;
+} 
+        </style>
+    </head>
+    <body style="background-color: rgba(15, 120, 71, 0.5); border:2px solid Tomato;"> <!-- Kolory + salowanie nasycenia --> 
+      <h1 id="myHeader">My Header</h1>
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+        <h1 style="color:blue; text-align:center;">Nagłówek jeden</h1>
+            <p1 style="color:orange; ">Hej, piszę tą stronkę by ułatwić Wam połapanie się o co c'mon, a sobie by się nauczyć</p1> <br>
+            <p1> <a href="https://www.worldanvil.com/world/article/list">Wcześniej było to na tej stronce, ale zakładam że zaraz bedzie przeniesione na serwer </a> </p1> <br>
+            <p1>  <button> Naciśnij</button> </p1> <br>
+            <img src="C:\Users\Micha\Desktop\Michał\RPG\whRPG\74426730_1272828146237134_9098110037221441536_n.jpg" alt="Spójrz w górę" width="150" height="150">
+    <hr>
+    <p> <code>
+      x = 5;<br>
+      y = 6;<br>
+      z = x + y;
+      </code> </p>
+            <table id="t01">
+                <caption>Monthly savings</caption>
+                <tr>
+                  <th>Firstname</th>
+                  <th>Lastname</th>
+                  <th>Age</th>
+                  <th colspan="2">Telephone</th>
+                </tr>
+                <tr>
+                  <td>Jill</td>
+                  <td>Smith</td>
+                  <td>501</td>
+                  <td>+50</td>
+                  <td>503</td>
+                </tr>
+                <tr>
+                  <td>Eve</td>
+                  <td>Jackson</td>
+                  <td>941</td>
+                  <td>+42</td>
+                  <td>943</td>
+                </tr>
+                <tr>
+                    <td>Raz</td>
+                    <th rowspan="2">Marchewka</th>
+                    <td>Dwa</td>
+                    <td>trzy</td>
+                </tr>
+                <tr> 
+                    <td> Piniądz </td>
+                </tr>
+              </table> </p2> 
+              <hr></br>
+              <table id="t02">
+                <caption>Monthly savings</caption>
+                <tr>
+                  <th>Firstname</th>
+                  <th>Lastname</th>
+                  <th>Age</th>
+                  <th colspan="2">Telephone</th>
+                </tr>
+            </table> 
+        <h1 style="text-align:center;">Gdzieś tam jest inny świat, gdzie <mark style="background-color:peru;">żyje się lżej</mark></h1>
+      <h1>
+        <dl>
+          <dt>Coffee</dt>
+          <dd>- black hot drink</dd>
+          <dt>Milk</dt>
+          <dd>- white cold drink</dd>
+        </dl> 
+        <h1 id="myHeader">My Header</h1>
+      </h1>
+            <p1><pre> <!--stronka wyświetla to tak jak było wklejone-->
+                Poranne zorze, poranne zorze 
+                Gdy idę w <del>Gdyni</del>Sopocie nad morzem <!--Przekreślenie-->
+                Po plaży <ins>brudno-piaskowej</ins> <!--podkreślenie-->
+                Bałtyk <sub>śmierdzi</sub> ropą naftową <!--Indeks dolny--> 
+                Poranne chodniki
+                Gdy idę, nie rozmawiam z nikim 
+                Jak jest w niedzielę nad ranem
+                Po sobotnich balach chodniki zarzygane
+            </pre></p1>
+            <a href="https://bolter.pl/">
+                <img src="Obrazki\PanSzkielet.jpg" alt="Szkielet z łukiem" style="width:250px;height:250px;border:2;">
+              </a> </br>
+              <iframe src="demo_iframe.htm" name="iframe_a"></iframe>
+
+              <p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p> 
+            <img src="Obrazki\PanSzkielet.jpg" alt="Rzuć na spostrzegawczość" style="width:500px;height:600px;"> </br>
+            <a href="https://www.w3schools.com/html/" target='_self'>Stronka tutek</a> </br>
+            <a href="html_images.asp">HTML Images</a> <!link do podstrony na te samej stronie></br>
+            <a href="default.asp">
+                <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;border:0;">
+              </a> </br>
+
+              <div class="city"><h>Kioto</h><b>
+                <p>Tokio paradice</p>
+              </div>
+              <img src="Obrazki\Mapa.jpg" alt="Workplace" usemap="#workmap">
+
+              <map name="workmap">
+                <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+                <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+                <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+              </map> </br>
+
+              <picture> <!Można wstawiać obrazki zarowno w zależności od wielkości ekranu, jak i rozpoznawalnego formatu pliku. Czy aby tylko obrazki?>
+                <source media="(min-width: 1210px)" srcset="Obrazki\Kotek.jpg">
+                <source media="(min-width: 465px)" srcset="Obrazki\PanSzkielet.jpg">
+                <img src="Obrazki\SorceBitch.jpg">
+              </picture> 
+
+
+            <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p> <!Razem z etykietką-podpisikiem>
+            <p1><blockquote cite="https://www.w3schools.com/html/html_quotation_elements.asp">Marchewka, groszek i pieczarki</blockquote></p1> <!Z linkiem>
+            <p1><q>kopytko</q></p1> <!Cudzysłów>
+            <address>
+                Written by John Doe.<br>
+                Visit us at:<br>
+                Example.com<br>
+                Box 564, Disneyland<br>
+                USA
+            </address> 
+            <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p> <!--podpisy np do obrazków-->
+    </body>
+    <footer>
+        <h4>
+            CyCki
+        </h4>
+    </footer>
+</html>
